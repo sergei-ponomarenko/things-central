@@ -39,10 +39,11 @@ svg {
 }
 
 .-ui-kit-scrollable-content {
-  display: flow-root;
+  display: inline-block;
+  /*display: flow-root;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;*/
 }
 
 .-ui-kit-vertical-scroll-bar {
