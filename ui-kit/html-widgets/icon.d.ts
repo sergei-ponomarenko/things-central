@@ -1,5 +1,5 @@
 import DeviceWidget from "../device/device-widget";
-declare class Icon extends DeviceWidget {
+declare class I extends DeviceWidget {
     constructor(...params: any);
 }
-export default Icon;
+export default I;

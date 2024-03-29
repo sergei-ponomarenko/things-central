@@ -24,12 +24,6 @@ export declare class DeviceControl {
     callWillUnmount(): void;
     unmountObservedShelves(): void;
     willUnmount(): void;
-    onMouseEnter?: Function;
-    onMouseMove?: Function;
-    onMouseLeave?: Function;
-    onPointerDown?: Function;
-    onPointerUp?: Function;
-    onClick?: Function;
     onResize?: Function;
 }
 declare class ObservedShelf {

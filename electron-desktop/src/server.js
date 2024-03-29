@@ -12,6 +12,14 @@ server.get("/api/heart-beat", (request, response) => {
   }));
 });
 
+server.get("/api/sign-in", (request, response) => { 
+  response.setHeader("Content-Type", "application/json");
+  response.status(200);
+  response.send(JSON.stringify({
+    server: "electron-desktop.express-js"
+  }));
+});
+
 const startServer = function(PORT, done) {
   server.use(express.json({ limit: "100mb" }));
   server.use(cors());

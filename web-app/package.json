@@ -34,7 +34,7 @@
     "fontfaceobserver": "^2.3.0",
     "gsap": "^3.12.5",
     "i18next": "^23.10.1",
-    "nodemon": "^3.0.3",
-    "ui-kit": "file:../ui-kit"
+    "ui-kit": "file:../ui-kit",
+    "nodemon": "^3.0.3"
   }
 }

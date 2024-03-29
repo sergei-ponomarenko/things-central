@@ -1,5 +1,5 @@
 import DeviceWidget from "../device/device-widget";
-declare class Paragraph extends DeviceWidget {
-    constructor(innerText: string, ...params: any);
+declare class P extends DeviceWidget {
+    constructor(innerText: string | undefined, ...params: any);
 }
-export default Paragraph;
+export default P;

@@ -61,16 +61,15 @@ module.exports = {
   ],
   devServer: {
     compress: true,
-    port: 8000,
+    port: 8080,
     allowedHosts: 'all',
     historyApiFallback:{
       index:'index.html'
     },
-    proxy: [
-      {
-        context: ['/api'],
-        target: 'http://localhost:8080',
-      },
-    ],
+    proxy: {
+      '/api': {
+        target: 'http://localhost:8000',
+      }
+    }
   },
 };
