@@ -8,5 +8,9 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "sourceMap": true,
-  }
+    "baseUrl": "./",
+    "paths": {
+      "@web-pecker-custom-components/*": ["../web-pecker/custom-components/*"]
+    }
+  },
 }

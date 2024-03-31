@@ -1,4 +1,4 @@
-import {DevicePage, P} from "ui-kit";
+import {DevicePage, P} from "web-pecker";
 
 class HomePage extends DevicePage {
 

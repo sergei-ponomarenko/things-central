@@ -1,36 +1,30 @@
-/* avoid wrapping div getting bigger than img or svg */
-img,
-svg {
-  display: block;
-}
-
 /* scroll bars */
 
-.-ui-kit-overflow-y-auto {
+.-web-pecker-overflow-y-auto {
   overflow: hidden;
 }
 
-.-ui-kit-overflow-x-auto {
+.-web-pecker-overflow-x-auto {
   overflow: hidden;
 }
 
-.-ui-kit-overflow-y-scroll {
+.-web-pecker-overflow-y-scroll {
   overflow: hidden;
 }
 
-.-ui-kit-overflow-x-scroll {
+.-web-pecker-overflow-x-scroll {
   overflow: hidden;
 }
 
-.-ui-kit-overflow-auto {
+.-web-pecker-overflow-auto {
   overflow: hidden;
 }
 
-.-ui-kit-overflow-scroll {
+.-web-pecker-overflow-scroll {
   overflow: hidden;
 }
 
-.-ui-kit-scroll-bars-holder {
+.-web-pecker-scroll-bars-holder {
   display: block;
   position: relative;
   width: 100%;
@@ -38,7 +32,7 @@ svg {
   overflow: hidden;
 }
 
-.-ui-kit-scrollable-content {
+.-web-pecker-scrollable-content {
   display: inline-block;
   /*display: flow-root;
   -webkit-transform: translate3d(0, 0, 0);
@@ -46,7 +40,7 @@ svg {
   -webkit-tap-highlight-color: transparent;*/
 }
 
-.-ui-kit-vertical-scroll-bar {
+.-web-pecker-vertical-scroll-bar {
   position: absolute;
   display: block;
   right: 0;
@@ -56,7 +50,7 @@ svg {
   background-color: rgba(172, 172, 172, 0.32);
 }
 
-.-ui-kit-horizontal-scroll-bar {
+.-web-pecker-horizontal-scroll-bar {
   position: absolute;
   display: block;
   left: 0;
@@ -68,12 +62,12 @@ svg {
 
 /*
 
-.-ui-kit-scroll-bars-hidden::-webkit-scrollbar {
+.-web-pecker-scroll-bars-hidden::-webkit-scrollbar {
   width: 0 !important;
   height: 0 !important;
 }
 
-.-ui-kit-scroll-bars-hidden {
+.-web-pecker-scroll-bars-hidden {
   overflow: -moz-scrollbars-none;
   -ms-overflow-style: none;
 }

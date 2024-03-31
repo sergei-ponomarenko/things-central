@@ -11,7 +11,10 @@ module.exports = {
   entry: `./src/index.ts`,
   mode: 'production',
   resolve: {
-    extensions: ['.ts', '.tsx', '.js', '.json']
+    extensions: ['.ts', '.tsx', '.js', '.json'],
+    alias: {
+      '@web-pecker-custom-components': path.resolve(__dirname, '../web-pecker/custom-components')
+    }
   },
   module: {
     rules: [

@@ -1,4 +1,4 @@
-import {DevicePage, Div, SpinnerBorder} from "ui-kit";
+import {DevicePage, Div, SpinnerBorder} from "web-pecker";
 import SignInForm1 from "./sign-in-form1";
 import gsap from "gsap";
 

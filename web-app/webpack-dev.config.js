@@ -7,7 +7,10 @@ module.exports = {
   entry: `./src/index.ts`,
   devtool: 'source-map',
   resolve: {
-    extensions: ['.ts', '.tsx', '.js', '.json']
+    extensions: ['.ts', '.tsx', '.js', '.json'],
+    alias: {
+      '@web-pecker-custom-components': path.resolve(__dirname, '../web-pecker/custom-components')
+    }
   },
   output: {
     path: path.resolve(__dirname, 'build'),
@@ -54,7 +57,7 @@ module.exports = {
     }),
     new MiniCssExtractPlugin(),
     new HtmlPlugin({
-      title: 'web-pecker-examples',
+      title: 'things-central',
       template: `src/index.html`,
       favicon: `src/favicon.ico`,
     }),

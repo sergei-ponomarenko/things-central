@@ -1,4 +1,4 @@
-import {DeviceStore} from "ui-kit";
+import {DeviceStore} from "web-pecker";
 
 class Store extends DeviceStore {
 

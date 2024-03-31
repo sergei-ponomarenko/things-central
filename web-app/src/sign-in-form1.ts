@@ -12,7 +12,7 @@ import {
   Label,
   Row, Small,
   Span, SpinnerBorder
-} from "ui-kit";
+} from "web-pecker";
 import "./sign-in-form-1.css";
 import {store} from "./things-central";
 

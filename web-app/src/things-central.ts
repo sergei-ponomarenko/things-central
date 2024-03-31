@@ -1,5 +1,5 @@
 import gsap from "gsap";
-import {DeviceRouter, DevicePage} from "ui-kit";
+import {DeviceRouter, DevicePage} from "web-pecker";
 import Store from "./store";
 import SignInPage from "./sign-in-page";
 import HomePage from "./home-page";
